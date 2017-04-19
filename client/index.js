@@ -1,7 +1,7 @@
-function component () {
-  var element = document.createElement('div');
+function component() {
+  const element = document.createElement('div');
 
-  element.innerHTML = "Hello world"
+  element.innerHTML = 'Hello world';
 
   return element;
 }
