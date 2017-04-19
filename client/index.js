@@ -1,9 +1,5 @@
-function component() {
-  const element = document.createElement('div');
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Home from './components/Home.jsx';
 
-  element.innerHTML = 'Hello world';
-
-  return element;
-}
-
-document.body.appendChild(component());
+ReactDOM.render(<Home />, document.getElementById('root'));
