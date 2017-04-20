@@ -38,7 +38,7 @@ export default class AddMovies extends React.Component {
 
   render() {
     return (
-      <div className="todoListMain">
+      <div className="movieListMain">
         <h1>Movies App</h1>
         <p>Manage your movie list with our simple app.</p>
         <div className="header">
@@ -49,6 +49,8 @@ export default class AddMovies extends React.Component {
             />
             <button type="submit">add</button>
           </form>
+        </div>
+        <div className="movielist">
           <MovieList entries={this.state.movies} />
         </div>
       </div>
