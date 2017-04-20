@@ -6,6 +6,7 @@
   "author": "joykare <joy.warugu@andela.com>",
   "license": "MIT",
   "dependencies": {
+    "babel-preset-stage-2": "^6.24.1",
     "path": "^0.12.7",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",

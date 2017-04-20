@@ -9,11 +9,11 @@ class EditMoiesContainer extends Component {
   }
 
   handleDelete = (event) => {
-
+    console.log("Delete");
   }
 
   handleUpdate = (event) => {
-
+    console.log("update");
   }
   
   render() {
