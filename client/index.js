@@ -1,9 +1,6 @@
-function component () {
-  var element = document.createElement('div');
+import React from 'react';
+import ReactDOM from 'react-dom';
+import AddMovies from './containers/AddMovies.jsx';
 
-  element.innerHTML = "Hello world"
 
-  return element;
-}
-
-document.body.appendChild(component());
+ReactDOM.render(<AddMovies />, document.getElementById('root'));
