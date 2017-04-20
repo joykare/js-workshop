@@ -22,7 +22,11 @@ const EditMovies = (props) => {
                 </button>
               <button
                 className="btn btn-danger"
-                onClick={() => handleDelete(book.title)}
+                onClick={() => {
+                  if (confirm('Delete this movie?')) {
+                    handleDelete(book.title);
+                  }
+                }}
                 style={{ marginLeft: 10 }}
               >
                 Delete
