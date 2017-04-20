@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import EditMoviesContainer from './containers/EditMoviesContainer.jsx';
+import MovieDisplayContainer from './containers/MovieDisplayContainer.jsx';
 
-ReactDOM.render(<EditMoviesContainer />, document.getElementById('root'));
+ReactDOM.render(<MovieDisplayContainer />, document.getElementById('root'));
