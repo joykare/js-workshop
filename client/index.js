@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Home from './components/Home.jsx';
+import AddMovies from './containers/AddMovies.jsx';
 
 
-ReactDOM.render(<Home />, document.getElementById('root'));
+ReactDOM.render(<AddMovies />, document.getElementById('root'));
