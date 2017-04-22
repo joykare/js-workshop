@@ -15,7 +15,7 @@ class MovieDisplayContainer extends Component {
     this.handleUpdate = this.handleUpdate.bind(this);
   }
 
-  addMovie(e) {
+  addMovie = (e) => {
     e.preventDefault();
 
     const movieArray = this.state.movies;
@@ -28,13 +28,15 @@ class MovieDisplayContainer extends Component {
     });
   }
 
-  handleChange(e) {
+  handleChange = (e) => {
     e.preventDefault();
     this.setState({
       movie: {
         title: e.target.value
       },
     });
+
+    e.target.value = '';
   }
 
   handleDelete = (title) => {

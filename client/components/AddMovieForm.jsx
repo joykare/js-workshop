@@ -12,7 +12,7 @@ const componentName = (props) => {
         <div className="input-group col-lg-6 offset-lg-3">
           <input
             className="form-control"
-            onChange={handleChange}
+            onBlur={handleChange}
             placeholder="enter movie name"
           />
           <div className="input-group-btn"> <button className="btn btn-primary" onClick={addMovie}>Add</button> </div>
